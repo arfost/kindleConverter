@@ -1,0 +1,77 @@
+#divMap canvas {
+    border:0px;
+    margin:0 0 0 0;
+
+}
+#corps #menu-gauche
+{
+    height: 800px;
+    width: 185px;
+    background-color: #204d74;
+    float: left;
+}
+
+#corps #menu-droite{
+    float:right;
+    width:600px;
+    height: 800px;
+    background-color: yellow;
+}
+.divMap {
+    width:1100px;
+    height:800px;
+    overflow:hidden;
+}
+
+.inventory{
+  position: absolute;
+  top:0;
+  left: 0;
+  background-color: green;
+  width: 1200px;
+  height: 800px;
+  border:3px solid black;
+}
+.menu-bas{
+  width:1200px;
+  height: 200px;
+  background-color: pink;
+  display: inline-table;
+}
+
+
+/* Presentation poi*/
+.poi{
+  width:600px;
+  /*background-color: grey;*/
+  height: 300px;
+}
+
+.divAllPOI{
+  display: inline-table;
+  width:600px;
+  /*background-color: red;*/
+}
+.div2POI{
+  display: table-cell;
+  width: 250px;
+  height: 300px;
+  /*background-color: blue;*/
+}
+.div1POI{
+  width: 250px;
+  height: 150px;
+  /*background-color: pink;*/
+}
+.case{
+  display: table-cell;
+  width: 100px;
+
+  background-color: white;
+}
+.out{
+  border:1px solid black;
+}
+.in{
+  border:1px solid red;
+}

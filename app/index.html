@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>kindle converter</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+
+    <div id="dropable" class="panel">
+      <h1>Drop one or more files to begin transfert</h1>
+      <label for="fileSelect">Files to upload:</label>
+      <input type="file" id="fileSelect" name="fileSelect" />
+      <div id="filedrag">drop files here</div>
+      <br/>
+      <button type="button" id="bSettings" class="button">Settings</button>
+    </div>
+
+    <div id="settings" class="panel">
+      <h1>Change mail settings</h1>
+      <label for="fileSelect">Kindle adress to send the file : </label>
+      <input type="text" id="cKindleAdress" name="kindleAdress" placeholder=""/>
+      <br/>
+      <label for="user">Gmail adress : </label>
+      <input type="text" id="cUser" name="user" placeholder=""/>
+      <br/>
+      <label for="pass">Password of your gmail adresse : </label>
+      <input type="password" id="cPass" name="pass" placeholder=""/>
+      <br/>
+      <button type="button" id="bValidate" class="button">Validate</button> <button type="button" id="bConverter" class="button">Return</button>
+    </div>
+
+    <div id="wait" class="panel">
+      <h1>Work in progress</h1>
+      <img src="./img/loading-2.gif" class="loadingGif"/>
+    </div>
+
+    <br/>
+    <div id="footer">
+      Status Messages : <span id="messages"></span>
+    </div>
+
+  </body>
+  <script src="scripts/index.js"></script>
+</html>

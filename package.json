@@ -1,0 +1,29 @@
+{
+	"name": "kindle-online-converter",
+	"version": "1.0.0",
+	"description": "A simple epub to mobi converter for kindle, mailing the result directly on the configured kindle mail adress",
+	"keywords": [
+		"kindle",
+		"epub",
+		"mobi"
+	],
+	"homepage": "https://github.com/arfost/kindleConverter#readme",
+	"bugs": {
+		"url": "https://github.com/arfost/kindleConverter/issues"
+	},
+	"license": "MIT",
+	"author": "arfost",
+	"main": "main.js",
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/arfost/kindleConverter.git"
+	},
+	"scripts": {
+		"start": ".\\node_modules\\.bin\\electron ."
+	},
+	"dependencies": {
+		"electron": "^1.4.0",
+		"kindlegen": "^1.0.1",
+		"nodemailer": "^2.6.0"
+	}
+}
